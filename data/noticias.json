@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "actualizado": null,
+    "estado": { "es": "En investigación", "en": "Under investigation" }
+  },
+  "noticias": [
+    { "titulo": "Ministro Jaime Andrés Beltrán presentó balance de auditoría que adelanta la cartera de Vivienda: \"Es grave\"", "url": "https://www.infobae.com/colombia/2026/09/26/ministro-jaime-andres-beltran-presento-balance-de-auditoria-que-adelanta-la-cartera-de-vivienda-tras-salida-del-gobierno-petro-es-grave/", "fuente": "Infobae", "fecha": "2026-09-26T12:00:00-05:00" },
+    { "titulo": "Auditoría de MinVivienda pone bajo la lupa más de $1,14 billones en proyectos de agua y vivienda", "url": "https://diariolalibertad.com/2026/09/26/auditoria-de-minvivienda-pone-bajo-la-lupa-mas-de-114-billones-en-proyectos-de-agua-y-vivienda/", "fuente": "Diario La Libertad", "fecha": "2026-09-26T10:00:00-05:00" },
+    { "titulo": "Hallazgos fiscales en Minvivienda por $10.000 millones, casas sin construir y baja ejecución", "url": "https://www.noticiasrcn.com/colombia/hallazgos-fiscales-por-10-000-millones-casas-sin-construir-y-baja-ejecucion-en-minvivienda-1068309", "fuente": "Noticias RCN", "fecha": null },
+    { "titulo": "Minvivienda reporta hallazgos graves en proyectos de agua, vivienda y contratación", "url": "https://www.portafolio.co/economia/gobierno/minvivienda-reporta-hallazgos-graves-en-proyectos-de-agua-vivienda-y-contratacion-503291", "fuente": "Portafolio", "fecha": null },
+    { "titulo": "Informe sobre los hallazgos anunciados por el Ministerio de Vivienda: estos son los detalles", "url": "https://www.noticiasrcn.com/colombia/informe-sobre-los-hallazgos-anunciados-por-el-ministerio-de-vivienda-1065406", "fuente": "Noticias RCN", "fecha": null },
+    { "titulo": "Auditoría de Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar", "url": "https://minvivienda.gov.co/sala-de-prensa/auditoria-de-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar", "fuente": "Ministerio de Vivienda", "fecha": null },
+    { "titulo": "Minvivienda reveló graves hallazgos que comprometen más de $1 billón en proyectos", "url": "https://www.noticiasrcn.com/colombia/minvivenda-revelo-graves-hallazgos-que-comprometen-mas-de-1-billon-en-proyectos-1065143", "fuente": "Noticias RCN", "fecha": null },
+    { "titulo": "Auditoría a Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar", "url": "https://elfrente.com.co/auditoria-de-jaime-andres-a-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar/", "fuente": "El Frente", "fecha": null }
+  ],
+  "videos": []
+}

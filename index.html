@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>¿Dónde están las casas? — Caso Caquetá al Día</title>
+<meta name="description" content="Seguimiento ciudadano al caso de las 36 viviendas de Caquetá: $3.200 millones y una misma casa presuntamente usada para justificar varias. Vibras Positivas HM.">
+<meta name="theme-color" content="#0b1424">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="img/app-192.png">
+<meta property="og:title" content="¿Dónde están las casas? — Caso Caquetá al Día">
+<meta property="og:description" content="$3.200 millones, 36 viviendas y una misma casa. Seguimiento ciudadano, noticias cada 30 minutos.">
+<meta property="og:image" content="img/ministro.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="brand"><b>¿Dónde están<br>las casas?</b><span data-i18n="brandSub">Caso Caquetá al Día</span></div>
+  <div class="top-actions">
+    <button id="btnLang" class="pill" aria-label="Cambiar idioma">EN</button>
+    <button id="btnRefresh" class="pill pill-hot" data-i18n="refresh">Actualizar</button>
+  </div>
+</header>
+
+<div class="ticker" aria-live="polite"><div class="ticker-track" id="ticker"><span data-i18n="tickerLoading">Buscando noticias en vivo…</span></div></div>
+
+<nav class="tabs" id="tabs">
+  <a href="#hoy" data-i18n="navHoy">Hoy</a>
+  <a href="#caso" data-i18n="navCaso">El caso</a>
+  <a href="#cifras" data-i18n="navCifras">Cifras</a>
+  <a href="#linea" data-i18n="navLinea">Línea de tiempo</a>
+  <a href="#noticias" data-i18n="navNoticias">Noticias</a>
+  <a href="#videos" data-i18n="navVideos">Videos</a>
+  <a href="#accion" data-i18n="navAccion">Actúa</a>
+</nav>
+
+<section class="hero">
+  <img src="img/ministro.jpg" alt="Ministro de Vivienda Jaime Andrés Beltrán en el video del Ministerio sobre el caso Caquetá" class="hero-img">
+  <div class="hero-shade"></div>
+  <div class="hero-text reveal">
+    <p class="kicker" data-i18n="heroKicker">Seguimiento ciudadano · Ministerio de Vivienda</p>
+    <h1><span class="count" data-to="3200">0</span> <small data-i18n="heroMillones">millones</small><br><span data-i18n="heroPara">para</span> <span class="count hot" data-to="36">0</span> <span data-i18n="heroViviendas">viviendas</span></h1>
+    <p class="hero-lead" data-i18n="heroLead">Según la auditoría del Ministerio, presuntamente una misma casa habría sido usada para justificar varias.</p>
+    <p class="quote" data-i18n="heroQuote">"¿Dónde están las casas? ¿Quién lo revisó? ¿Quién lo aprobó?" — Ministro Jaime Andrés Beltrán</p>
+  </div>
+</section>
+
+<!-- HOY -->
+<section id="hoy" class="block">
+  <div class="block-head"><h2 data-i18n="hoyTitle">Hoy</h2><span class="live"><i></i><span data-i18n="enVivo">En vivo</span></span></div>
+  <p class="hoy-date" id="hoyFecha">—</p>
+  <div class="hoy-grid">
+    <div class="hoy-card big">
+      <span class="lbl" data-i18n="hoyUltima">Lo último</span>
+      <a id="hoyTitular" class="hoy-titular" target="_blank" rel="noopener">—</a>
+      <span id="hoyFuente" class="muted"></span>
+    </div>
+    <div class="hoy-card"><span class="lbl" data-i18n="hoyDias">Días desde la denuncia</span><b id="hoyDias" class="num">—</b><span class="muted" data-i18n="hoyDiasSub">Auditoría revelada el 26 sep 2026</span></div>
+    <div class="hoy-card"><span class="lbl" data-i18n="hoy24">Noticias últimas 24 h</span><b id="hoy24" class="num">—</b><span class="muted" data-i18n="hoy24Sub">De la búsqueda en vivo y el robot</span></div>
+    <div class="hoy-card"><span class="lbl" data-i18n="hoyEstado">Estado del caso</span><b id="hoyEstado" class="estado">—</b><span class="muted" data-i18n="hoyEstadoSub">Hallazgo preliminar en manos de las autoridades</span></div>
+    <div class="hoy-card"><span class="lbl" data-i18n="hoyRobot">Robot de noticias</span><b id="hoyRobot" class="num sm">—</b><span class="muted" id="hoyVisita"></span></div>
+  </div>
+</section>
+
+<!-- EL CASO -->
+<section id="caso" class="block">
+  <h2 data-i18n="casoTitle">El caso, en simple</h2>
+  <div class="caso-grid">
+    <article class="caso-card reveal"><span class="step">01</span><h3 data-i18n="c1t">La plata</h3><p data-i18n="c1p">Se comprometieron más de $3.200 millones de recursos públicos para un proyecto de 36 soluciones de vivienda en Caquetá.</p></article>
+    <article class="caso-card reveal"><span class="step">02</span><h3 data-i18n="c2t">La auditoría</h3><p data-i18n="c2p">El ministro Jaime Andrés Beltrán ordenó revisar "proyecto por proyecto y peso por peso" lo que recibió del gobierno anterior.</p></article>
+    <article class="caso-card reveal"><span class="step">03</span><h3 data-i18n="c3t">El "gemeleo"</h3><p data-i18n="c3p">Al revisar las evidencias, el Ministerio encontró indicios de que una sola casa habría sido presentada para justificar varias viviendas distintas.</p></article>
+    <article class="caso-card reveal"><span class="step">04</span><h3 data-i18n="c4t">Las 123 casas</h3><p data-i18n="c4p">En el debate de control político el ministro habló de un proyecto de 123 viviendas en Caquetá en el que 36 no aparecen.</p></article>
+    <article class="caso-card reveal"><span class="step">05</span><h3 data-i18n="c5t">La denuncia</h3><p data-i18n="c5p">Los hallazgos fueron enviados a las autoridades competentes. Ellas deben decidir si hubo irregularidades y quiénes responden.</p></article>
+    <article class="caso-card reveal warn"><span class="step">!</span><h3 data-i18n="c6t">Ojo: es preliminar</h3><p data-i18n="c6p">Todavía no hay fallo ni responsables señalados por un juez. Esta app sigue el caso y se actualiza sola; nadie es culpable hasta que se demuestre.</p></article>
+  </div>
+
+  <div class="gemelas">
+    <div class="gemelas-text">
+      <h3 data-i18n="gemTitle">36 registros, 1 sola casa</h3>
+      <p data-i18n="gemP">Toca el tablero: así se vería un "gemeleo", donde muchas viviendas reportadas terminan siendo la misma.</p>
+      <button class="pill pill-hot" id="btnGemelas" data-i18n="gemBtn">Ver el gemeleo</button>
+    </div>
+    <div class="tablero" id="tablero" aria-label="Tablero de 36 viviendas"></div>
+  </div>
+</section>
+
+<!-- CIFRAS -->
+<section id="cifras" class="block dark">
+  <h2 data-i18n="cifrasTitle">Las cifras que hay que explicar</h2>
+  <div class="cifras">
+    <div class="cifra reveal"><b>$<span class="count" data-to="3200">0</span> M</b><span data-i18n="cf1">comprometidos para el proyecto de Caquetá</span></div>
+    <div class="cifra reveal"><b>$<span class="count" data-to="88.9" data-dec="1">0</span> M</b><span data-i18n="cf2">por cada una de las 36 viviendas (cálculo simple)</span></div>
+    <div class="cifra reveal"><b><span class="count" data-to="36">0</span> / <span class="count" data-to="123">0</span></b><span data-i18n="cf3">viviendas que no aparecen, de un proyecto de 123</span></div>
+    <div class="cifra reveal"><b>$<span class="count" data-to="1.14" data-dec="2">0</span> billones</b><span data-i18n="cf4">bajo revisión en 42 proyectos de la auditoría nacional</span></div>
+  </div>
+  <h3 class="sub" data-i18n="otrosTitle">Otros hallazgos de la misma auditoría</h3>
+  <div class="otros">
+    <div class="otro reveal"><b>$60.000 M</b><span data-i18n="o1">para 327 viviendas en Cauca y Nariño que en 4 años no se han entregado; sí se pagaron unos $143 M de interventoría.</span></div>
+    <div class="otro reveal"><b>$8.000 M</b><span data-i18n="o2">en una planta de agua en La Guajira cuestionada por su planeación.</span></div>
+    <div class="otro reveal"><b>100</b><span data-i18n="o3">viviendas en Providencia y Santa Catalina: convenio recibido vencido y en liquidación, sin casas construidas.</span></div>
+    <div class="otro reveal"><b>+$10.000 M</b><span data-i18n="o4">en hallazgos fiscales presentados en debates de control político.</span></div>
+  </div>
+</section>
+
+<!-- LINEA DE TIEMPO -->
+<section id="linea" class="block">
+  <h2 data-i18n="lineaTitle">Línea de tiempo</h2>
+  <ol class="timeline">
+    <li class="reveal"><time data-i18n="t1d">7 jul 2026</time><p data-i18n="t1p">El presidente electo Abelardo de la Espriella designa a Jaime Andrés Beltrán, exalcalde de Bucaramanga, como ministro de Vivienda.</p></li>
+    <li class="reveal"><time data-i18n="t2d">Ago 2026</time><p data-i18n="t2p">Beltrán llega al Ministerio y ordena una auditoría integral a proyectos y recursos.</p></li>
+    <li class="reveal"><time data-i18n="t3d">26 sep 2026</time><p data-i18n="t3p">El Ministerio presenta los primeros hallazgos: $1,14 billones bajo revisión y el caso de las 36 viviendas de Caquetá por más de $3.200 millones.</p></li>
+    <li class="reveal"><time data-i18n="t4d">Oct 2026</time><p data-i18n="t4p">En control político, el ministro habla de un proyecto de 123 viviendas en Caquetá donde 36 no aparecen, y de más de $10.000 millones en hallazgos fiscales.</p></li>
+    <li class="reveal now"><time data-i18n="t5d">Ahora</time><p data-i18n="t5p">El caso está en manos de las autoridades. Esta app vigila cada novedad: imputaciones, respuestas del gobierno anterior, visitas de control y decisiones.</p></li>
+  </ol>
+</section>
+
+<!-- NOTICIAS -->
+<section id="noticias" class="block">
+  <div class="block-head"><h2 data-i18n="notTitle">Noticias</h2><span class="muted" id="notEstado"></span></div>
+  <input id="buscar" class="buscar" type="search" placeholder="Filtrar noticias…" data-i18n-ph="buscarPh">
+  <div id="listaNoticias" class="noticias"></div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" class="block dark">
+  <h2 data-i18n="vidTitle">Videos del caso</h2>
+  <p class="muted" data-i18n="vidSub">El robot busca videos nuevos cada 30 minutos.</p>
+  <div id="listaVideos" class="videos"></div>
+</section>
+
+<!-- ACCION -->
+<section id="accion" class="block">
+  <h2 data-i18n="accTitle">Actúa como ciudadano</h2>
+  <p data-i18n="accP">Tienes derecho a pedir información pública. Copia este derecho de petición, complétalo y envíalo al Ministerio de Vivienda.</p>
+  <textarea id="peticion" class="peticion" rows="14" readonly></textarea>
+  <div class="acc-btns">
+    <button class="pill pill-hot" id="btnCopiar" data-i18n="accCopiar">Copiar petición</button>
+    <a class="pill" id="btnWa" target="_blank" rel="noopener" data-i18n="accWa">Compartir por WhatsApp</a>
+  </div>
+  <div class="entes">
+    <a href="https://www.minvivienda.gov.co" target="_blank" rel="noopener"><b>Ministerio de Vivienda</b><span data-i18n="e1">Enviar la petición (PQRSD)</span></a>
+    <a href="https://www.contraloria.gov.co" target="_blank" rel="noopener"><b>Contraloría</b><span data-i18n="e2">Control fiscal de la plata pública</span></a>
+    <a href="https://www.procuraduria.gov.co" target="_blank" rel="noopener"><b>Procuraduría</b><span data-i18n="e3">Conducta de los funcionarios</span></a>
+    <a href="https://www.fiscalia.gov.co" target="_blank" rel="noopener"><b>Fiscalía</b><span data-i18n="e4">Posibles delitos</span></a>
+  </div>
+</section>
+
+<section class="block fuentes">
+  <h2 data-i18n="fuentesTitle">Fuentes</h2>
+  <ul>
+    <li><a href="https://minvivienda.gov.co/sala-de-prensa/auditoria-de-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar" target="_blank" rel="noopener">Minvivienda — Auditoría revela proyectos estancados</a></li>
+    <li><a href="https://www.portafolio.co/economia/gobierno/minvivienda-reporta-hallazgos-graves-en-proyectos-de-agua-vivienda-y-contratacion-503291" target="_blank" rel="noopener">Portafolio — Hallazgos graves en agua, vivienda y contratación</a></li>
+    <li><a href="https://www.infobae.com/colombia/2026/09/26/ministro-jaime-andres-beltran-presento-balance-de-auditoria-que-adelanta-la-cartera-de-vivienda-tras-salida-del-gobierno-petro-es-grave/" target="_blank" rel="noopener">Infobae — Balance de la auditoría (26 sep 2026)</a></li>
+    <li><a href="https://www.noticiasrcn.com/colombia/hallazgos-fiscales-por-10-000-millones-casas-sin-construir-y-baja-ejecucion-en-minvivienda-1068309" target="_blank" rel="noopener">Noticias RCN — Hallazgos fiscales por $10.000 millones</a></li>
+    <li><a href="https://www.noticiasrcn.com/colombia/informe-sobre-los-hallazgos-anunciados-por-el-ministerio-de-vivienda-1065406" target="_blank" rel="noopener">Noticias RCN — Informe sobre los hallazgos</a></li>
+  </ul>
+</section>
+
+<footer class="foot">
+  <b>Vibras Positivas HM</b>
+  <span data-i18n="footP">App ciudadana independiente. Información pública con fuentes; los hallazgos son preliminares.</span>
+  <span>vibraspositivashm.com · 311 770 0431</span>
+</footer>
+
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
