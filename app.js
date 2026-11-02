@@ -47,6 +47,10 @@ const T = {
     vidTitle:'Videos del caso', vidSub:'El robot busca videos nuevos cada 30 minutos.', verVideo:'Ver video', sinVideos:'El robot todavía no ha traído videos. Vuelve en un rato.',
     accTitle:'Actúa como ciudadano', accP:'Tienes derecho a pedir información pública. Copia este derecho de petición, complétalo y envíalo al Ministerio de Vivienda.',
     accCopiar:'Copiar petición', accWa:'Compartir por WhatsApp', copiado:'Petición copiada',
+    accP:'Tienes derecho a pedir información pública. Llena tus datos y envía el derecho de petición al Ministerio de Vivienda desde aquí mismo.',
+    fNombre:'Nombre completo', fCedula:'Cédula', fCiudad:'Ciudad', fCorreo:'Tu correo (para la respuesta)', fDir:'Dirección (opcional)',
+    accEnviar:'Enviar al Ministerio', accGmail:'Enviar con Gmail web', accNota:'Se abre tu correo con la petición lista para correspondencia@minvivienda.gov.co. Solo toca Enviar. Te llega copia a ti.',
+    faltan:'Completa los campos marcados', abriendo:'Abriendo tu correo… solo toca Enviar',
     e1:'Enviar la petición (PQRSD)', e2:'Control fiscal de la plata pública', e3:'Conducta de los funcionarios', e4:'Posibles delitos',
     fuentesTitle:'Fuentes', footP:'App ciudadana independiente. Información pública con fuentes; los hallazgos son preliminares.',
     actualizado:'Actualizado', waTxt:'¿Dónde están las casas? $3.200 millones para 36 viviendas en Caquetá y presuntamente una misma casa para justificar varias. Sigue el caso aquí: ',
@@ -104,6 +108,9 @@ Atentamente,
     vidTitle:'Videos about the case', vidSub:'The robot looks for new videos every 30 minutes.', verVideo:'Watch video', sinVideos:'The robot has not brought videos yet. Check back soon.',
     accTitle:'Act as a citizen', accP:'You have the right to request public information. Copy this petition (in Spanish, as the Ministry requires), fill it in and send it.',
     accCopiar:'Copy petition', accWa:'Share on WhatsApp', copiado:'Petition copied',
+    fNombre:'Full name', fCedula:'ID number (cédula)', fCiudad:'City', fCorreo:'Your email (for the reply)', fDir:'Address (optional)',
+    accEnviar:'Send to the Ministry', accGmail:'Send with Gmail web', accNota:'Your email app opens with the petition (in Spanish) ready for correspondencia@minvivienda.gov.co. Just tap Send. You get a copy.',
+    faltan:'Fill in the highlighted fields', abriendo:'Opening your email… just tap Send',
     e1:'Send the petition', e2:'Fiscal control of public money', e3:'Conduct of public officials', e4:'Possible crimes',
     fuentesTitle:'Sources', footP:'Independent citizen app. Public information with sources; findings are preliminary.',
     actualizado:'Updated', waTxt:'Where are the houses? 3.2 billion pesos for 36 homes in Caquetá, and allegedly the same house used to justify several. Follow the case: '
@@ -119,7 +126,7 @@ function aplicarIdioma(){
   document.querySelectorAll('[data-i18n]').forEach(el => el.textContent = t(el.dataset.i18n));
   document.querySelectorAll('[data-i18n-ph]').forEach(el => el.placeholder = t(el.dataset.i18nPh));
   $('#btnLang').textContent = LANG === 'es' ? 'EN' : 'ES';
-  $('#peticion').value = T.es.peticion;
+  armarPeticion();
   $('#btnWa').href = 'https://wa.me/?text=' + encodeURIComponent(t('waTxt') + location.href.split('#')[0]);
   $('#btnGemelas').textContent = $('#tablero').classList.contains('gemeleo') ? t('gemBtn2') : t('gemBtn');
   pintarHoy(); pintarNoticias(); pintarVideos();
@@ -226,6 +233,46 @@ async function actualizar(){
   toast(t('actualizado') + ' · ' + fmtFecha(new Date(), {hour:'numeric', minute:'2-digit'}));
 }
 
+
+const MINVIVIENDA = 'correspondencia@minvivienda.gov.co';
+const ASUNTO = 'Derecho de petición – Proyecto de 36 viviendas en Caquetá';
+const CAMPOS = ['fNombre','fCedula','fCiudad','fCorreo','fDir'];
+function datosForm(){ const d = {}; CAMPOS.forEach(id => { const el = document.getElementById(id); d[id] = el ? el.value.trim() : ''; }); return d; }
+function armarPeticion(){
+  const d = datosForm();
+  const recibo = d.fDir ? `en el correo ${d.fCorreo || '[CORREO]'} o en la dirección ${d.fDir}` : `en el correo ${d.fCorreo || '[CORREO]'}`;
+  const txt = T.es.peticion
+    .replace('[NOMBRE COMPLETO]', d.fNombre || '[NOMBRE COMPLETO]')
+    .replace(/\[NÚMERO\]/g, d.fCedula || '[NÚMERO]')
+    .replace('[CIUDAD]', d.fCiudad || '[CIUDAD]')
+    .replace('en el correo [CORREO] o en la dirección [DIRECCIÓN]', recibo)
+    .replace('[FIRMA]\n[NOMBRE]', d.fNombre || '[NOMBRE]')
+    .replace('Bogotá D.C.\n\nAsunto', 'Bogotá D.C.\n\n' + (d.fCiudad || '[CIUDAD]') + ', ' + fechaLarga() + '\n\nAsunto');
+  const ta = document.getElementById('peticion'); if (ta) ta.value = txt;
+  const g = document.getElementById('btnGmail');
+  if (g) g.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + MINVIVIENDA + (d.fCorreo ? '&cc=' + encodeURIComponent(d.fCorreo) : '') + '&su=' + encodeURIComponent(ASUNTO) + '&body=' + encodeURIComponent(txt);
+  return txt;
+}
+const fechaLarga = () => new Intl.DateTimeFormat('es-CO', {timeZone: TZ, day:'numeric', month:'long', year:'numeric'}).format(new Date());
+function validar(){
+  let ok = true;
+  ['fNombre','fCedula','fCiudad','fCorreo'].forEach(id => {
+    const el = document.getElementById(id);
+    const bien = el.value.trim() && el.checkValidity();
+    el.classList.toggle('err', !bien); if (!bien) ok = false;
+  });
+  if (!ok) toast(t('faltan'));
+  return ok;
+}
+function enviarPeticion(e){
+  e.preventDefault();
+  if (!validar()) return;
+  const txt = armarPeticion(), d = datosForm();
+  try { localStorage.setItem('petDatos', JSON.stringify({fNombre:d.fNombre, fCiudad:d.fCiudad, fCorreo:d.fCorreo, fDir:d.fDir})); } catch(_){}
+  toast(t('abriendo'));
+  location.href = 'mailto:' + MINVIVIENDA + '?cc=' + encodeURIComponent(d.fCorreo) + '&subject=' + encodeURIComponent(ASUNTO) + '&body=' + encodeURIComponent(txt);
+}
+
 function toast(msg){ const el = $('#toast'); el.textContent = msg; el.classList.add('on'); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('on'), 2200); }
 
 function contadores(el){
@@ -274,6 +321,11 @@ document.addEventListener('DOMContentLoaded', () => {
   $('#btnRefresh').onclick = actualizar;
   $('#buscar').oninput = pintarNoticias;
   $('#btnCopiar').onclick = async () => { try { await navigator.clipboard.writeText($('#peticion').value); } catch(e){ $('#peticion').select(); document.execCommand('copy'); } toast(t('copiado')); };
+  try { const g = JSON.parse(localStorage.getItem('petDatos') || '{}'); Object.entries(g).forEach(([k, v]) => { const el = document.getElementById(k); if (el && v) el.value = v; }); } catch(_){}
+  CAMPOS.forEach(id => document.getElementById(id).addEventListener('input', e => { e.target.classList.remove('err'); armarPeticion(); }));
+  $('#formPet').addEventListener('submit', enviarPeticion);
+  $('#btnGmail').addEventListener('click', e => { if (!validar()) e.preventDefault(); });
+  armarPeticion();
   cargarRobot().then(busquedaEnVivo);
   setInterval(pintarHoy, 60000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) actualizar(); });

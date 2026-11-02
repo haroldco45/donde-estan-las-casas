@@ -134,10 +134,20 @@
 <!-- ACCION -->
 <section id="accion" class="block">
   <h2 data-i18n="accTitle">Actúa como ciudadano</h2>
-  <p data-i18n="accP">Tienes derecho a pedir información pública. Copia este derecho de petición, complétalo y envíalo al Ministerio de Vivienda.</p>
+  <p data-i18n="accP">Tienes derecho a pedir información pública. Llena tus datos y envía el derecho de petición al Ministerio de Vivienda desde aquí mismo.</p>
+  <form id="formPet" class="form-pet" novalidate>
+    <label><span data-i18n="fNombre">Nombre completo</span><input id="fNombre" required autocomplete="name"></label>
+    <label><span data-i18n="fCedula">Cédula</span><input id="fCedula" required inputmode="numeric" pattern="[0-9.]{5,15}"></label>
+    <label><span data-i18n="fCiudad">Ciudad</span><input id="fCiudad" required autocomplete="address-level2"></label>
+    <label><span data-i18n="fCorreo">Tu correo (para la respuesta)</span><input id="fCorreo" type="email" required autocomplete="email"></label>
+    <label class="full"><span data-i18n="fDir">Dirección (opcional)</span><input id="fDir" autocomplete="street-address"></label>
+    <button type="submit" class="pill pill-hot enviar" data-i18n="accEnviar">Enviar al Ministerio</button>
+    <a id="btnGmail" class="pill" target="_blank" rel="noopener" data-i18n="accGmail">Enviar con Gmail web</a>
+    <p class="muted full" data-i18n="accNota">Se abre tu correo con la petición lista para correspondencia@minvivienda.gov.co. Solo toca Enviar. Te llega copia a ti.</p>
+  </form>
   <textarea id="peticion" class="peticion" rows="14" readonly></textarea>
   <div class="acc-btns">
-    <button class="pill pill-hot" id="btnCopiar" data-i18n="accCopiar">Copiar petición</button>
+    <button class="pill" id="btnCopiar" data-i18n="accCopiar">Copiar petición</button>
     <a class="pill" id="btnWa" target="_blank" rel="noopener" data-i18n="accWa">Compartir por WhatsApp</a>
   </div>
   <div class="entes">

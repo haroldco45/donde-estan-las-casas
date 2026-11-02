@@ -97,6 +97,18 @@ button{font:inherit;cursor:pointer}
 .video iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
 .video p{padding:10px 12px;font-size:13px;color:#dbe4f1;background:var(--bg2)}
 .peticion{width:100%;border-radius:16px;border:2px solid #d9cfbb;padding:14px;font:13px/1.5 ui-monospace,monospace;background:#fff;margin:12px 0}
+.form-pet{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0;background:var(--bg);color:#fff;padding:18px;border-radius:20px}
+.form-pet label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--hot)}
+.form-pet input{font:inherit;font-size:16px;text-transform:none;letter-spacing:0;font-weight:400;padding:11px 14px;border-radius:12px;border:2px solid #2a3d61;background:#0f1d33;color:#fff}
+.form-pet input:focus{outline:none;border-color:var(--hot)}
+.form-pet input.err{border-color:var(--red);animation:shake .3s}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.form-pet .full,.form-pet .enviar{grid-column:1/-1}
+.form-pet .enviar{font-size:17px;padding:14px;animation:glow 2s infinite}
+@keyframes glow{50%{box-shadow:0 0 0 8px rgba(255,176,32,.25)}}
+.form-pet #btnGmail{grid-column:1/-1;text-align:center;color:#fff}
+.form-pet .muted{color:var(--muted)}
+@media(max-width:480px){.form-pet{grid-template-columns:1fr}}
 .acc-btns{display:flex;gap:10px;flex-wrap:wrap}
 .entes{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:20px}
 .entes a{background:var(--bg);color:#fff;border-radius:16px;padding:16px;text-decoration:none;display:flex;flex-direction:column}
