@@ -1,6 +1,6 @@
 // Red primero: siempre intenta traer lo nuevo; si no hay señal, usa la copia guardada.
-const CACHE = 'casas-caqueta-v2';
-const BASE = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'img/ministro.jpg', 'img/app-192.png'];
+const CACHE = 'casas-caqueta-v3';
+const BASE = ['./', 'index.html', 'styles.css?v=3', 'app.js?v=3', 'manifest.webmanifest', 'img/ministro.jpg', 'img/app-192.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(BASE))); self.skipWaiting(); });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))));
