@@ -1,6 +1,6 @@
 {
   "meta": {
-    "actualizado": "2026-11-03T01:25:05.620Z",
+    "actualizado": "2026-11-03T08:10:28.067Z",
     "estado": {
       "es": "En investigación",
       "en": "Under investigation"
@@ -136,6 +136,13 @@
       "imagen": null
     },
     {
+      "titulo": "Funcionario de la alcald&#237;a de Puerto Rico, Caquet&#225;, fue v&#237;ctima de secuestro en su propia vivienda",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae996f2e8034f4eb24280eed8ac7e61&url=https%3a%2f%2fcaracol.com.co%2fradio%2f2016%2f12%2f22%2fregional%2f1482405773_213369.html&c=11990593225853261840&mkt=es-xl",
+      "fuente": "Caracol Radio",
+      "fecha": "2016-12-21T22:25:00.000Z",
+      "imagen": null
+    },
+    {
       "titulo": "Hallazgos fiscales en Minvivienda por $10.000 millones, casas sin construir y baja ejecución",
       "url": "https://www.noticiasrcn.com/colombia/hallazgos-fiscales-por-10-000-millones-casas-sin-construir-y-baja-ejecucion-en-minvivienda-1068309",
       "fuente": "Noticias RCN",
@@ -174,76 +181,96 @@
   ],
   "videos": [
     {
-      "id": "kNONB--9vHA",
-      "titulo": "DATOS CURIOSOS DE JAIME ANDRES BELTRAN"
+      "id": "zIu1Ooh4IKk",
+      "titulo": "Debate de moción de censura contra el ministro de Vivienda, Jaime Andrés Beltrán"
     },
     {
-      "id": "Z4_nEUy6Vqg",
-      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, señala que merece descansar con su familia"
+      "id": "foYkjdbbFtE",
+      "titulo": "El polémico viaje del MinVivienda Jaime Beltrán durante emergencia por el terremoto | La Luciérnaga"
     },
     {
-      "id": "ALiVuNFGROo",
-      "titulo": "MinVivienda designado revela cómo funcionará “Casa Milagro”, el reemplazo de “Mi Casa Ya” | 6AM W"
+      "id": "RpMjPHoo4mY",
+      "titulo": "Ministro Jaime Andrés Beltrán plantea fortalecer los subsidios para vivienda en Villavicencio"
     },
     {
-      "id": "yAx6YkUcp6c",
-      "titulo": "Rifirrafe en el Senado por moción de censura al MinVivienda por paseo tras terremoto - LSEV"
+      "id": "k1mKd2jd06U",
+      "titulo": "Ministerio de Vivienda al Borde del Colapso"
     },
     {
-      "id": "yAY0wcUIwH0",
-      "titulo": "Jaime Andrés Beltrán, en medio de la polémica: pese a dar explicaciones, radican moción de censur..."
+      "id": "Ls8-2jz1UPs",
+      "titulo": "Ministerio de Vivienda entregó 12 viviendas adecuadas a familias de Nahuizalco, Sonsonate"
     },
     {
-      "id": "SGZrvrR-GhY",
-      "titulo": "Intervención del ministro Jaime Andrés Beltrán ante la Comisión Séptima del Senado"
-    },
-    {
-      "id": "qS21fGJeWmg",
-      "titulo": "Nos dejaron la olla pelada: ministro de Vivienda, Jaime Andrés Beltrán"
-    },
-    {
-      "id": "s-Ztu23xDV8",
-      "titulo": "Ministro de Vivienda, Ciudad y Territorio, Jaime Andrés Beltrán"
-    },
-    {
-      "id": "WQ1CrduGasw",
-      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, respondió a los cuestionamientos."
-    },
-    {
-      "id": "ET-0N3CK7cI",
-      "titulo": "Caquetá Noticias 170 Viviendas Entregadas en San José del Fragua"
-    },
-    {
-      "id": "IYw9WftQSwk",
-      "titulo": "El Gobierno entregó 36 viviendas en el barrio Francisco I"
-    },
-    {
-      "id": "Clcph172Brg",
-      "titulo": "‘Plan Milagro’ de reconstrucción estará a cargo del ministro de Vivienda, Jaime Andrés Beltrán."
-    },
-    {
-      "id": "dlX9qF8A34k",
-      "titulo": "PROYECTOS DE AGUA Y VIVIENDA PARA EL CAQUETÁ, FUERON ANALIZADOS CON ALCALDES, GOBIERNO NACIONAL Y DE"
-    },
-    {
-      "id": "Gfkf2o9giJw",
-      "titulo": "Ministerio de Vivienda proyecta construir 26000 viviendas nuevas en este gobierno"
-    },
-    {
-      "id": "ZXwRASQbZCg",
-      "titulo": "Ministerio de Vivienda entregó viviendas a 36 familias"
-    },
-    {
-      "id": "xzBV3OtIMLc",
-      "titulo": "Ministerio de Vivienda entregó apartamentos a 36 familias"
+      "id": "7VRcnq8S_lI",
+      "titulo": "En Caquetá $3.200 millones fueron comprometidos para 36 viviendas"
     },
     {
       "id": "TpqZvOeKScw",
       "titulo": "Nuevas estrategias de vivienda para el Caquetá"
     },
     {
-      "id": "7VRcnq8S_lI",
-      "titulo": "En Caquetá $3.200 millones fueron comprometidos para 36 viviendas"
+      "id": "xzBV3OtIMLc",
+      "titulo": "Ministerio de Vivienda entregó apartamentos a 36 familias"
+    },
+    {
+      "id": "ZXwRASQbZCg",
+      "titulo": "Ministerio de Vivienda entregó viviendas a 36 familias"
+    },
+    {
+      "id": "Gfkf2o9giJw",
+      "titulo": "Ministerio de Vivienda proyecta construir 26000 viviendas nuevas en este gobierno"
+    },
+    {
+      "id": "dlX9qF8A34k",
+      "titulo": "PROYECTOS DE AGUA Y VIVIENDA PARA EL CAQUETÁ, FUERON ANALIZADOS CON ALCALDES, GOBIERNO NACIONAL Y DE"
+    },
+    {
+      "id": "Clcph172Brg",
+      "titulo": "‘Plan Milagro’ de reconstrucción estará a cargo del ministro de Vivienda, Jaime Andrés Beltrán."
+    },
+    {
+      "id": "IYw9WftQSwk",
+      "titulo": "El Gobierno entregó 36 viviendas en el barrio Francisco I"
+    },
+    {
+      "id": "ET-0N3CK7cI",
+      "titulo": "Caquetá Noticias 170 Viviendas Entregadas en San José del Fragua"
+    },
+    {
+      "id": "WQ1CrduGasw",
+      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, respondió a los cuestionamientos."
+    },
+    {
+      "id": "s-Ztu23xDV8",
+      "titulo": "Ministro de Vivienda, Ciudad y Territorio, Jaime Andrés Beltrán"
+    },
+    {
+      "id": "qS21fGJeWmg",
+      "titulo": "Nos dejaron la olla pelada: ministro de Vivienda, Jaime Andrés Beltrán"
+    },
+    {
+      "id": "SGZrvrR-GhY",
+      "titulo": "Intervención del ministro Jaime Andrés Beltrán ante la Comisión Séptima del Senado"
+    },
+    {
+      "id": "yAY0wcUIwH0",
+      "titulo": "Jaime Andrés Beltrán, en medio de la polémica: pese a dar explicaciones, radican moción de censur..."
+    },
+    {
+      "id": "yAx6YkUcp6c",
+      "titulo": "Rifirrafe en el Senado por moción de censura al MinVivienda por paseo tras terremoto - LSEV"
+    },
+    {
+      "id": "ALiVuNFGROo",
+      "titulo": "MinVivienda designado revela cómo funcionará “Casa Milagro”, el reemplazo de “Mi Casa Ya” | 6AM W"
+    },
+    {
+      "id": "Z4_nEUy6Vqg",
+      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, señala que merece descansar con su familia"
+    },
+    {
+      "id": "kNONB--9vHA",
+      "titulo": "DATOS CURIOSOS DE JAIME ANDRES BELTRAN"
     }
   ]
 }
