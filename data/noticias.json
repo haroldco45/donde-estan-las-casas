@@ -1,17 +1,249 @@
 {
   "meta": {
-    "actualizado": null,
-    "estado": { "es": "En investigación", "en": "Under investigation" }
+    "actualizado": "2026-11-03T01:25:05.620Z",
+    "estado": {
+      "es": "En investigación",
+      "en": "Under investigation"
+    }
   },
   "noticias": [
-    { "titulo": "Ministro Jaime Andrés Beltrán presentó balance de auditoría que adelanta la cartera de Vivienda: \"Es grave\"", "url": "https://www.infobae.com/colombia/2026/09/26/ministro-jaime-andres-beltran-presento-balance-de-auditoria-que-adelanta-la-cartera-de-vivienda-tras-salida-del-gobierno-petro-es-grave/", "fuente": "Infobae", "fecha": "2026-09-26T12:00:00-05:00" },
-    { "titulo": "Auditoría de MinVivienda pone bajo la lupa más de $1,14 billones en proyectos de agua y vivienda", "url": "https://diariolalibertad.com/2026/09/26/auditoria-de-minvivienda-pone-bajo-la-lupa-mas-de-114-billones-en-proyectos-de-agua-y-vivienda/", "fuente": "Diario La Libertad", "fecha": "2026-09-26T10:00:00-05:00" },
-    { "titulo": "Hallazgos fiscales en Minvivienda por $10.000 millones, casas sin construir y baja ejecución", "url": "https://www.noticiasrcn.com/colombia/hallazgos-fiscales-por-10-000-millones-casas-sin-construir-y-baja-ejecucion-en-minvivienda-1068309", "fuente": "Noticias RCN", "fecha": null },
-    { "titulo": "Minvivienda reporta hallazgos graves en proyectos de agua, vivienda y contratación", "url": "https://www.portafolio.co/economia/gobierno/minvivienda-reporta-hallazgos-graves-en-proyectos-de-agua-vivienda-y-contratacion-503291", "fuente": "Portafolio", "fecha": null },
-    { "titulo": "Informe sobre los hallazgos anunciados por el Ministerio de Vivienda: estos son los detalles", "url": "https://www.noticiasrcn.com/colombia/informe-sobre-los-hallazgos-anunciados-por-el-ministerio-de-vivienda-1065406", "fuente": "Noticias RCN", "fecha": null },
-    { "titulo": "Auditoría de Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar", "url": "https://minvivienda.gov.co/sala-de-prensa/auditoria-de-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar", "fuente": "Ministerio de Vivienda", "fecha": null },
-    { "titulo": "Minvivienda reveló graves hallazgos que comprometen más de $1 billón en proyectos", "url": "https://www.noticiasrcn.com/colombia/minvivenda-revelo-graves-hallazgos-que-comprometen-mas-de-1-billon-en-proyectos-1065143", "fuente": "Noticias RCN", "fecha": null },
-    { "titulo": "Auditoría a Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar", "url": "https://elfrente.com.co/auditoria-de-jaime-andres-a-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar/", "fuente": "El Frente", "fecha": null }
+    {
+      "titulo": "Jaime Andres Beltr&#225;n destap&#243; las irregularidades que dej&#243; Petro en MinVivienda",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ee7da94a298b7392c9dd3c1b5d&url=https%3a%2f%2felfrente.com.co%2fjaime-andres-beltran-destapo-las-irregularidades-que-dejo-petro-en-minvivienda%2f&c=12137345331844169643&mkt=es-xl",
+      "fuente": "El Frente",
+      "fecha": "2026-10-20T14:55:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.G8DoKQHO3wPRmF4JImBGOg&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Minvivienda Jaime Beltr&#225;n alerta por obras de agua sin avances: $3.600 millones desembolsados y costos en d&#243;lares",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ee7da94a298b7392c9dd3c1b5d&url=https%3a%2f%2fwww.msn.com%2fes-co%2fdinero%2fgeneral%2fminvivienda-jaime-beltr%25C3%25A1n-alerta-por-obras-de-agua-sin-avances-3-600-millones-desembolsados-y-costos-en-d%25C3%25B3lares%2far-AA2fBnXD&c=3819696336066670566&mkt=es-xl",
+      "fuente": "Portafolio on MSN",
+      "fecha": "2026-10-19T11:02:19.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "MinVivienda denuncia irregularidades en obras de acueducto y alcantarillado: una en La Guajira est&#225; en 0% de ejecuci&#243;n",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ef9e234ebc932725f6a38d9eda&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fother%2fminvivienda-denuncia-irregularidades-en-obras-de-acueducto-y-alcantarillado-una-en-la-guajira-est%25C3%25A1-en-0-de-ejecuci%25C3%25B3n%2far-AA2fAZry&c=16363245278988633529&mkt=es-xl",
+      "fuente": "MSN",
+      "fecha": "2026-10-19T09:31:00.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Ministerio de Vivienda denuncia presuntas irregularidades en obras de acueducto y alcantarillado en Riohacha, Buenaventura y Ci&#233;naga",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ee7da94a298b7392c9dd3c1b5d&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fotras%2fministerio-de-vivienda-denuncia-presuntas-irregularidades-en-obras-de-acueducto-y-alcantarillado-en-riohacha-buenaventura-y-ci%25C3%25A9naga%2far-AA2fxeHe&c=9474239385928816632&mkt=es-xl",
+      "fuente": "El Tiempo on MSN",
+      "fecha": "2026-10-18T20:20:47.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Alerta en el MinVivienda: auditor&#237;a forense revela irregularidades y obras fantasma en Riohacha, Buenaventura y Ci&#233;naga",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ee7da94a298b7392c9dd3c1b5d&url=https%3a%2f%2fwww.semana.com%2fpolitica%2farticulo%2falerta-en-el-minvivienda-auditoria-forense-revela-irregularidades-y-obras-fantasma-en-riohacha-buenaventura-y-cienaga%2f202635%2f&c=5851062562848111756&mkt=es-xl",
+      "fuente": "Semana",
+      "fecha": "2026-10-18T16:47:00.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Minvivienda denuncia presuntas irregularidades en obras de agua y alcantarillado por m&#225;s de $9.000 millones durante el Gobierno anterior",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ee7da94a298b7392c9dd3c1b5d&url=https%3a%2f%2fwww.elheraldo.co%2fcolombia%2f2026%2f10%2f18%2fminvivienda-denuncia-presuntas-irregularidades-en-obras-de-agua-y-alcantarillado-por-mas-de-9000-millones-durante-el-gobierno-anterior%2f&c=8817973645806228277&mkt=es-xl",
+      "fuente": "El heraldo",
+      "fecha": "2026-10-18T14:42:00.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Alerta en el MinVivienda: auditoría forense revela irregularidades y obras fantasma en Riohacha, Buenaventura y Ciénaga",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQM3Y3RThCTVRRZ25Rc0dqTWJqeEl3Y1lBODhCRlVOemVQd2tlNXFkQWdmMzI1TlNhSW85N29OWDRkRzNueTVjSEQ4X3ZROFdGTDl2QWs4ay1Fc3JxcnA3X0RxNktHSk5FdnNSeDBlV1JXXzlYMXpKRG92ZnpPUWJRMTU5aDdBSlBwV3FlRFZJVW0zNnhDR2w3VXppUkRaTC1PQmhsaGpacExXRDlxSkRtOHJoOVZ5bmpkNzFoN0J3NE5pdVFrdXAtWDVldTZsM1A4LTBQbU5NVWRZUGtaNUFyaXRaRF9TcFRYQjBWMXd4bTBNRWxYZzJremd30gH_AUFVX3lxTE1MQkptYTVkZUlrYkw2S0pTVlhRRlpHNWhFMm53bGhQQ1FEb0ZOZzRTSGJXSGpQQjhMRlAyLXpNYUFsdFEzVnlXekNmLThWUFFxN1U5NlpUYjk3aEdWZEhvRmJNeHNvdzBlTDc3QlBTTmtYSVFwaXVadDJwMk5PeXJRSFR0bDZRYWM0Y2NWVVBfVU9ZZjJ1YWxoc1VkV1paYUlpam80bXoxaklySHJQY2U2T21EMjVYRi01RnQ1TjRQUUxnWUI2bUlfNVdKVnkxcHRUVzJadEk3VmRVdGd0VTB0RUhnNkRLX2VFSjY3cUpYTlRscFI2UjV5ZU4zMjNTMA?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-10-18T07:00:00.000Z"
+    },
+    {
+      "titulo": "Ministerio de Vivienda denunciará ante organismos de control tres obras de agua y alcantarillado sin avances: “No hay nada”",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSWRoU1NjcjZmVW9BLVJxYnJjOG1lZ1BZMkhTR2JMUS1MSzNkN2hyQmxueXhHNVZWT054XzRIb1l3RHlyczRIWGRwVk1takkxdWtzSHV5bzdVWElVc012YVhBUVdDN2szTFhPQ09WVDJ4WWJBSUdubFFWVGxDSzl6WnhId2JVd09zZVJqR0FHNHRxcE1FMXZwWHBqTVQzSHh1QWdKOWhvMzloZU9zblo1YklLdmUyaFpKUkg4X205VDJJd0x3dW9JX0Mwcnp2S2VMWGdvN25udUhCS1ROMzR2YTV5UnNMU2RGS3B2Y1ZKQnhqQ203YWV1N9IBkwJBVV95cUxQSGtlNFBGWHhsRmotR0cwNE42aE4tNDJhT21IZFNEc0dWVFpKQ01YR3dmd3NHOEhFLTEyV1ZsUTA5d2NaaUotc3lsQXE0eFRrOWVLWm5fUWg3Q0E5X1FfNjlGSi1zd2RVZHBUU0ZpUkJfT2twMmlaTDZ2SkxOQ1lscUYxdVVnU1hERzF3SVZIdTExTkwxNlJ5Q2pSWDllQnI2aVlIcGdTTWdGX095Q25FQVpzcHZIT2MtY0FYNWZkOWhhdzF6bnM2czRlOE9zQ0NTTUlFS3B6N2VGdWE2MWNZTFluc2N2SUM2TXNjZjdXa3pQTWl4UGFpTnBlblkydXo0VTA2NXlKb3ZHTm9QWVp0YXZTdw?oc=5",
+      "fuente": "Infobae",
+      "fecha": "2026-10-18T07:00:00.000Z"
+    },
+    {
+      "titulo": "Minvivienda denuncia obras sin avances en tres ciudades",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNenZUc0w1M3NqaFF1WEhuam9jcWxEM2hWbnRQNWM5WTc3TXZMMnpJV3lIQ3Y4dHN0N2xZN3ZZUnd0RVFlWkJPUDJyZjlxZ1d6T2JrVGdIelNETk94RXhUUjVHRk9VSHFRLWxGT0NodU50d25NdE1maDZtY0JvdEdtSWNINnpNZ3RCcUxQNTVGMlM?oc=5",
+      "fuente": "Kienyke",
+      "fecha": "2026-10-18T07:00:00.000Z"
+    },
+    {
+      "titulo": "Auditoría de Jaime Andrés A Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS0t0TEkwY3laV0hxYXBXWHhQTDduc0VTTTFHUU9fZUNsWFhrTkdfTzBlanBhMklyOWVDblZRR3lXc2tmZGZpMGk1bm16bS1ETWQtOGJmT1Iybk5lVlF1UC1naEVGVHQzMXIzbmpLRWFMbkQtX0o1MC05b2tnbE1YMjZBZzNPNnJNeVRVRjhnSHh6cWs5T1ljU0w4NlYteFBVR05RbW5oejNoZWVUNVpiRFVGanRTSG1wd29jV1F4blhmaTFZSF9kMF9pMVdIVmpP?oc=5",
+      "fuente": "El Frente",
+      "fecha": "2026-09-28T07:00:00.000Z"
+    },
+    {
+      "titulo": "Ministro Jaime Andrés Beltrán presentó balance de auditoría que adelanta la cartera de Vivienda: \"Es grave\"",
+      "url": "https://www.infobae.com/colombia/2026/09/26/ministro-jaime-andres-beltran-presento-balance-de-auditoria-que-adelanta-la-cartera-de-vivienda-tras-salida-del-gobierno-petro-es-grave/",
+      "fuente": "Infobae",
+      "fecha": "2026-09-26T12:00:00-05:00"
+    },
+    {
+      "titulo": "Auditoría de MinVivienda pone bajo la lupa más de $1,14 billones en proyectos de agua y vivienda",
+      "url": "https://diariolalibertad.com/2026/09/26/auditoria-de-minvivienda-pone-bajo-la-lupa-mas-de-114-billones-en-proyectos-de-agua-y-vivienda/",
+      "fuente": "Diario La Libertad",
+      "fecha": "2026-09-26T10:00:00-05:00"
+    },
+    {
+      "titulo": "MinVivienda denuncia proyectos estancados y presuntas irregularidades por m&#225;s de $1,14 billones",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ee7da94a298b7392c9dd3c1b5d&url=https%3a%2f%2fwww.agenciapi.co%2fnoticia%2fnuevo-gobierno%2fminvivienda-denuncia-proyectos-estancados-y-presuntas-irregularidades-por-mas-de-1-14-billones&c=8735219217117317668&mkt=es-xl",
+      "fuente": "Agencia de Periodismo Investigativo",
+      "fecha": "2026-09-25T14:01:00.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Ministerio de Vivienda destapa irregularidades en proyectos de agua en La Guajira y vivienda en Cauca durante gobierno Petro: '¿Dónde quedó la plata?'",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOX1BybWp5MHlmME5DRGxjd3hxb3N5RjZwUzRyaHZoNWdKSzBBZnFBRmZlMVZEUV9UWW4zNEY3MzVVWFBnZmZhZklHcHhtMlRiZEV2X09MQzZlVnBHTUpRSEo5QjdsbGJ5cW1rZC0xal9UT1F6c1N3emJabG11UC1STFd0amMtYXhaS0JVQnVpSFgydkhxSGhZSnQ5V2lSRWVOMldrQVdYZzdIR1Z1QWVUZi1SNlBMeE1HQldRN2dOdzFTRF9IMTdGNUp3REdVeUtWRGt6MC1QUGVoVVZoNFhhRE5CaXVGS1VfaVlNUVM3NFdRSE9YOUJrVkV30gH_AUFVX3lxTE8zUUNCeEZFbmk3bmMtS1J5eERLcFZSUS0taHJvTTBNelRDZTJ1dndMVmJPZmNzcUFnMUsxcW9vVVFXY0ZQdHBjWmU3NHk0WlpYTWFMZEc2d1A4M3dPNjJQV016TE1TVnF0ZUdmYUwyWFRPamNWaWk5M2JoVzRQal95UEdpT1U4VDZwLW9abTVEYXpSTkJ5R0FIb2VWbW41X1VBZHY1em9HZWFVMmJucWliMC1NazQwX0V6V2lBenVHVm5IbEhPZ0JPT21HSWMxMFVMR0JLN0RTdTUwRnRUdTVyWWFoTUp2eWpoUjFLRHBuODBxZkJKY1FCVjNOemhjNA?oc=5",
+      "fuente": "El Tiempo",
+      "fecha": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "titulo": "Se destaparon, uno a uno, los presuntos casos de corrupción en el Ministerio de Vivienda en el gobierno Petro: “¿Dónde quedó la plata?”",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMWk5cWEydVhaRm5aV2I5cHZQMG1nbHNRdlVpMGl3cmVKMlN6Zm96MDhHMmhmd1A3QU02bVAtS1h4V3VrbU1DVDdjcDViRWxhOFdCWEZubko4OEpsaXUyeXdYVXdQSzlDbHlmREt0a0RxcnBIX0FqbnBXTFhWTngyOEJwWUlQSVIxM3pZT0J0ZjNGbVdTbVVFNWhydlNRVFdKRVZFVUtpV011dVFtRFZpZ1JlZ1Vjc0RTVkJ6LTRZWUZ6TnVURG13dzI5dkFYT0tfVkF0TmlEbkRQWElkcXBKdnp2WV9Pblg1R1NvREpneFJOMjBQMGxuLTBacGZ0WjVNZEJHeNIBigJBVV95cUxOVHNpVGtPNDZqVDVpZmctME1Ba2pJbUhxbVJ0MW0wcjRQV1BKZUk3eWVzZFFJbnRzSmdyWEZCMjFTalg4YzhYc2VNNFNVd2tWY3FKZGU5X2hTSlpINGxEcFRsTEZHaTcyRTBfVTlkeHdIdml6RGdDMVVfd2dGWWc4M3M0SzVKOTVLRE9YXzlDSjVDOFFHZFg3ZGgwNFlIbFNSN29QckZtNHNQVWxvY0VGWHAybTVYV0dtUlhaT1g5cjJ0b3ozQ0F0R0NmVDZQSkptQnVId2VmMVE5MUdENFdjaXdONTJTOHRsQmNfRFNCaWNERVgwVTRIOUZQTjlLUjNmWmF6S1JuMmJndw?oc=5",
+      "fuente": "Revista Semana",
+      "fecha": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "titulo": "MinVivienda reporta presuntas irregularidades en proyectos y aumento de contratación por servicios",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUFpXellzeHpBb1k1NkV5cTdXNXVlRzJnSjJ0cHBHa3RJSm9tdGI1UFV1aDhhd3dNbHo5WGVJV196VFdvR1lTM19rZ0lSd21zZ1Bsbm94dzVBV196cVNvR09icFJ4OEh1ZGZBSGMxNTZTNllCYXBsSEp4dTdsOHgydm9qLTdvako5V2FYTzJPMlpGbGlnR1V2c2lKT0lSZjcwS0RUakFPZ3k5aTJ4ZW03eWJFWjc0LU8yUGY3MkpXdi1McllMdXU4SA?oc=5",
+      "fuente": "Opanoticias",
+      "fecha": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "titulo": "Ministerio de Vivienda denuncia hallazgos e irregularidades en proyectos",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSzZyXzZFOUN4cXNHVU1IQzVBZHBMcXpqMjh3alpvMmxqcGY2Tm9QcVRvcVRUNU0xV193eWZ5RjFvQzNCX2JaNExzdVlvbHp5SzFqSklDNUlHT3V3UUFUVnI4WURpbnl0VW5DT01maGJjdFNGemFYYmxkMWZpdFdkMUJFUlI5aXhFTGZXT1BLUTgxdVNDNk15X0VSNlVaX0NBYzNDOHg0UWFKbFJqNG5OVWlqbw?oc=5",
+      "fuente": "El Nuevo Siglo",
+      "fecha": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "titulo": "MinVivienda advierte de más de $1,14 billones comprometidos en proyectos de agua: “Plata amarrada”",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZk9SUHlHQVU0UV9oa0k1LXA3NDNmQjZ3OVNFWUNFaGdVc2s0YmpucTlmTHBaTzhtODhVUTk5UkE5cWpFOGJhcUhkQnZaMEdSSFk5bFNRRl9tQkdycFV6cWhsMXFFOUxra0E2Z3U2YXQ0M2p4bXNVTjR2YjlRaUxkWWEtQWo1NEk5YUVBcVBxc2JGZ2xEd0dNRlRJTUpSMS1jVXdyTkFqZ0FoSERzN2FMYXZqMVV0eGpIWWpDendqc2I0UGcwNXZ6YW5jaHZjQdIB2wFBVV95cUxOSGp1SVZKeDNvMXh1UjVxQ0RJcjNMYUc1bWwwVThSbGhmNGhLaWttTkd0RlBwMm8xWk5mYXl3LXVlUmt4ckp4SURfbU1IcVIwVURfWUVHSWdnSGNURW9kT1BfUFp0Q0Y5cEUwd3dOakpkS25rdlhUZmFDa2NhWHNwTGhZcGFfbHlBa3NsRzBxVGV1THhEemotUlQwWXdxYW9nSGNfa243dHpUNDJJVU12aktRU0FjbjVuVXB1YkQ3MlBLVUxUR0s2MHU2ck9aSVg0cWpWdEZqSFpoU3c?oc=5",
+      "fuente": "Blu Radio",
+      "fecha": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "titulo": "Denuncian graves anomalías del gobierno Petro en Ministerio de Vivienda y RTVC",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON0JRZ25MS1YtZGZGcy1TMUt4aURlTWlQQ3FXdE5Yb2pmUFRaOS1jWG5RWEUzczlxX0t3SE5vY1NWck9zcHBCTzhLYWpIc1RJR1BMZi1oVWFwWUFHdXZDbDBiUlRFRUtEWHhWUWRoa29OTG90dlBUQTZKbDgxeUJ4ZlJCUDdmSWIya01PY2R5OGtwV0g2WWdvTzFna2hSUnBhV21Mc3NDQXhMSURhMlB3THh2T3BkZjB0anUw?oc=5",
+      "fuente": "El Nuevo Siglo",
+      "fecha": "2026-09-25T07:00:00.000Z"
+    },
+    {
+      "titulo": "M&#225;s de cien familias firmantes del Acuerdo de paz de 2016 recibieron viviendas en El Doncello, Caquet&#225;: conozca algunas de sus historias",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae937ef302848ccbcce6a3dfbb0d570&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fother%2fm%25C3%25A1s-de-cien-familias-firmantes-del-acuerdo-de-paz-de-2016-recibieron-viviendas-en-el-doncello-caquet%25C3%25A1-conozca-algunas-de-sus-historias%2far-AA1QvyIL&c=4621252846234341270&mkt=es-xl",
+      "fuente": "MSN",
+      "fecha": "2025-11-15T11:37:00.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Hallazgos fiscales en Minvivienda por $10.000 millones, casas sin construir y baja ejecución",
+      "url": "https://www.noticiasrcn.com/colombia/hallazgos-fiscales-por-10-000-millones-casas-sin-construir-y-baja-ejecucion-en-minvivienda-1068309",
+      "fuente": "Noticias RCN",
+      "fecha": null
+    },
+    {
+      "titulo": "Minvivienda reporta hallazgos graves en proyectos de agua, vivienda y contratación",
+      "url": "https://www.portafolio.co/economia/gobierno/minvivienda-reporta-hallazgos-graves-en-proyectos-de-agua-vivienda-y-contratacion-503291",
+      "fuente": "Portafolio",
+      "fecha": null
+    },
+    {
+      "titulo": "Informe sobre los hallazgos anunciados por el Ministerio de Vivienda: estos son los detalles",
+      "url": "https://www.noticiasrcn.com/colombia/informe-sobre-los-hallazgos-anunciados-por-el-ministerio-de-vivienda-1065406",
+      "fuente": "Noticias RCN",
+      "fecha": null
+    },
+    {
+      "titulo": "Auditoría de Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar",
+      "url": "https://minvivienda.gov.co/sala-de-prensa/auditoria-de-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar",
+      "fuente": "Ministerio de Vivienda",
+      "fecha": null
+    },
+    {
+      "titulo": "Minvivienda reveló graves hallazgos que comprometen más de $1 billón en proyectos",
+      "url": "https://www.noticiasrcn.com/colombia/minvivenda-revelo-graves-hallazgos-que-comprometen-mas-de-1-billon-en-proyectos-1065143",
+      "fuente": "Noticias RCN",
+      "fecha": null
+    },
+    {
+      "titulo": "Auditoría a Minvivienda revela proyectos estancados, obras cuestionadas y recursos sin ejecutar",
+      "url": "https://elfrente.com.co/auditoria-de-jaime-andres-a-minvivienda-revela-proyectos-estancados-obras-cuestionadas-y-recursos-sin-ejecutar/",
+      "fuente": "El Frente",
+      "fecha": null
+    }
   ],
-  "videos": []
+  "videos": [
+    {
+      "id": "kNONB--9vHA",
+      "titulo": "DATOS CURIOSOS DE JAIME ANDRES BELTRAN"
+    },
+    {
+      "id": "Z4_nEUy6Vqg",
+      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, señala que merece descansar con su familia"
+    },
+    {
+      "id": "ALiVuNFGROo",
+      "titulo": "MinVivienda designado revela cómo funcionará “Casa Milagro”, el reemplazo de “Mi Casa Ya” | 6AM W"
+    },
+    {
+      "id": "yAx6YkUcp6c",
+      "titulo": "Rifirrafe en el Senado por moción de censura al MinVivienda por paseo tras terremoto - LSEV"
+    },
+    {
+      "id": "yAY0wcUIwH0",
+      "titulo": "Jaime Andrés Beltrán, en medio de la polémica: pese a dar explicaciones, radican moción de censur..."
+    },
+    {
+      "id": "SGZrvrR-GhY",
+      "titulo": "Intervención del ministro Jaime Andrés Beltrán ante la Comisión Séptima del Senado"
+    },
+    {
+      "id": "qS21fGJeWmg",
+      "titulo": "Nos dejaron la olla pelada: ministro de Vivienda, Jaime Andrés Beltrán"
+    },
+    {
+      "id": "s-Ztu23xDV8",
+      "titulo": "Ministro de Vivienda, Ciudad y Territorio, Jaime Andrés Beltrán"
+    },
+    {
+      "id": "WQ1CrduGasw",
+      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, respondió a los cuestionamientos."
+    },
+    {
+      "id": "ET-0N3CK7cI",
+      "titulo": "Caquetá Noticias 170 Viviendas Entregadas en San José del Fragua"
+    },
+    {
+      "id": "IYw9WftQSwk",
+      "titulo": "El Gobierno entregó 36 viviendas en el barrio Francisco I"
+    },
+    {
+      "id": "Clcph172Brg",
+      "titulo": "‘Plan Milagro’ de reconstrucción estará a cargo del ministro de Vivienda, Jaime Andrés Beltrán."
+    },
+    {
+      "id": "dlX9qF8A34k",
+      "titulo": "PROYECTOS DE AGUA Y VIVIENDA PARA EL CAQUETÁ, FUERON ANALIZADOS CON ALCALDES, GOBIERNO NACIONAL Y DE"
+    },
+    {
+      "id": "Gfkf2o9giJw",
+      "titulo": "Ministerio de Vivienda proyecta construir 26000 viviendas nuevas en este gobierno"
+    },
+    {
+      "id": "ZXwRASQbZCg",
+      "titulo": "Ministerio de Vivienda entregó viviendas a 36 familias"
+    },
+    {
+      "id": "xzBV3OtIMLc",
+      "titulo": "Ministerio de Vivienda entregó apartamentos a 36 familias"
+    },
+    {
+      "id": "TpqZvOeKScw",
+      "titulo": "Nuevas estrategias de vivienda para el Caquetá"
+    },
+    {
+      "id": "7VRcnq8S_lI",
+      "titulo": "En Caquetá $3.200 millones fueron comprometidos para 36 viviendas"
+    }
+  ]
 }
