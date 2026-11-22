@@ -1,6 +1,6 @@
 {
   "meta": {
-    "actualizado": "2026-11-22T10:33:24.142Z",
+    "actualizado": "2026-11-22T18:09:35.071Z",
     "estado": {
       "es": "En investigación",
       "en": "Under investigation"
@@ -40,6 +40,13 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af3adc9580f4bdebf38a8d48d17d5ae&url=https%3a%2f%2fwww.elheraldo.co%2feconomia%2f2026%2f10%2f23%2fminvivienda-convoco-a-constructores-a-trabajar-en-conjunto-para-reactivar-la-vivienda%2f&c=7618543615176736010&mkt=es-xl",
       "fuente": "El Heraldo",
       "fecha": "2026-10-23T15:06:00.000Z",
+      "imagen": null
+    },
+    {
+      "titulo": "Reconstrucci&#243;n sube a $54,3 billones y no hay plata para vivienda de los no afectados: MinVivienda",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b032fdca66e4b51ae60c978046dfe4d&url=https%3a%2f%2fcaracol.com.co%2f2026%2f10%2f24%2freconstruccion-sube-a-543-billones-y-no-hay-plata-para-vivienda-de-los-no-afectados-minvivienda%2f&c=4313386078423434304&mkt=es-xl",
+      "fuente": "Caracol Radio",
+      "fecha": "2026-10-23T12:31:00.000Z",
       "imagen": null
     },
     {
@@ -291,100 +298,100 @@
   ],
   "videos": [
     {
-      "id": "-O9IrJ8dfr4",
-      "titulo": "#ACTUALIDAD | El ministro de Vivienda Jaime Andrés Beltrán se disculpó tras su viaje a Santa Marta ."
+      "id": "FFXInjhMDCo",
+      "titulo": "🔥¡Se despachó el Ministro de Vivienda!💥 Jaime Andrés Beltrán habló muy claro en el debate del Senado"
     },
     {
-      "id": "Z4_nEUy6Vqg",
-      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, señala que merece descansar con su familia"
+      "id": "dPu-BkoIpFE",
+      "titulo": "Jennifer Pedraza exige la renuncia del ministro de Vivienda, Jaime Andrés Beltrán"
     },
     {
-      "id": "8sfRTK8YmkQ",
-      "titulo": "Minvivienda, Jaime Beltrán, se defendió en debate de moción de censura"
+      "id": "5vp4BVtl6oU",
+      "titulo": "El ministro de Vivienda Jaime Andrés Beltrán se disculpó tras su viaje a Santa Marta"
     },
     {
-      "id": "RpMjPHoo4mY",
-      "titulo": "Ministro Jaime Andrés Beltrán plantea fortalecer los subsidios para vivienda en Villavicencio"
-    },
-    {
-      "id": "SoMnW1k_kRI",
-      "titulo": "Demolidas Cuatro Casas al Servicio del Microtráfico en Florencia Caquetá"
-    },
-    {
-      "id": "ZXwRASQbZCg",
-      "titulo": "Ministerio de Vivienda entregó viviendas a 36 familias"
-    },
-    {
-      "id": "k1mKd2jd06U",
-      "titulo": "Ministerio de Vivienda al Borde del Colapso"
-    },
-    {
-      "id": "Ls8-2jz1UPs",
-      "titulo": "Ministerio de Vivienda entregó 12 viviendas adecuadas a familias de Nahuizalco, Sonsonate"
-    },
-    {
-      "id": "X6F5vJDpqDI",
-      "titulo": "En Cali se construirán 40 mil casas: Ministerio de Vivienda"
-    },
-    {
-      "id": "CrFP6rRiOoU",
-      "titulo": "Conoce los 8 programas del Minvivienda anunciados por el ministro"
-    },
-    {
-      "id": "qA1YWp6oTTQ",
-      "titulo": "Ningún programa del Ministerio de Vivienda, Ciudad y Territorio necesita tramitadores"
-    },
-    {
-      "id": "kNONB--9vHA",
-      "titulo": "DATOS CURIOSOS DE JAIME ANDRES BELTRAN"
-    },
-    {
-      "id": "SGZrvrR-GhY",
-      "titulo": "Intervención del ministro Jaime Andrés Beltrán ante la Comisión Séptima del Senado"
-    },
-    {
-      "id": "qS21fGJeWmg",
-      "titulo": "Nos dejaron la olla pelada: ministro de Vivienda, Jaime Andrés Beltrán"
-    },
-    {
-      "id": "s-Ztu23xDV8",
-      "titulo": "Ministro de Vivienda, Ciudad y Territorio, Jaime Andrés Beltrán"
-    },
-    {
-      "id": "WQ1CrduGasw",
-      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, respondió a los cuestionamientos."
-    },
-    {
-      "id": "ET-0N3CK7cI",
-      "titulo": "Caquetá Noticias 170 Viviendas Entregadas en San José del Fragua"
-    },
-    {
-      "id": "IYw9WftQSwk",
-      "titulo": "El Gobierno entregó 36 viviendas en el barrio Francisco I"
-    },
-    {
-      "id": "Clcph172Brg",
-      "titulo": "‘Plan Milagro’ de reconstrucción estará a cargo del ministro de Vivienda, Jaime Andrés Beltrán."
-    },
-    {
-      "id": "7VRcnq8S_lI",
-      "titulo": "En Caquetá $3.200 millones fueron comprometidos para 36 viviendas"
-    },
-    {
-      "id": "ZUfnfA7k_Io",
-      "titulo": "2.000 HOGARES EN CAQUETÁ YA CUENTAN CON RECONECCIÓN DE AGUA POTABLE"
-    },
-    {
-      "id": "AmHZE6wpNYU",
-      "titulo": "Gobernación de Caquetá entrega 250 elementos para el bienestar de la Policía en los 16 municipios"
+      "id": "yUi1U9eFMA0",
+      "titulo": "Desde la Gobernación del Caquetá avanzamos en un hecho histórico para el sur del departamento"
     },
     {
       "id": "I1rj27SMd4Y",
       "titulo": "MinVivienda Jaime Andrés Beltrán, aseguró que no es cierto que haya abandonado sus responsabilidades"
     },
     {
-      "id": "yUi1U9eFMA0",
-      "titulo": "Desde la Gobernación del Caquetá avanzamos en un hecho histórico para el sur del departamento"
+      "id": "AmHZE6wpNYU",
+      "titulo": "Gobernación de Caquetá entrega 250 elementos para el bienestar de la Policía en los 16 municipios"
+    },
+    {
+      "id": "ZUfnfA7k_Io",
+      "titulo": "2.000 HOGARES EN CAQUETÁ YA CUENTAN CON RECONECCIÓN DE AGUA POTABLE"
+    },
+    {
+      "id": "7VRcnq8S_lI",
+      "titulo": "En Caquetá $3.200 millones fueron comprometidos para 36 viviendas"
+    },
+    {
+      "id": "Clcph172Brg",
+      "titulo": "‘Plan Milagro’ de reconstrucción estará a cargo del ministro de Vivienda, Jaime Andrés Beltrán."
+    },
+    {
+      "id": "IYw9WftQSwk",
+      "titulo": "El Gobierno entregó 36 viviendas en el barrio Francisco I"
+    },
+    {
+      "id": "ET-0N3CK7cI",
+      "titulo": "Caquetá Noticias 170 Viviendas Entregadas en San José del Fragua"
+    },
+    {
+      "id": "WQ1CrduGasw",
+      "titulo": "El ministro de Vivienda, Jaime Andrés Beltrán, respondió a los cuestionamientos."
+    },
+    {
+      "id": "s-Ztu23xDV8",
+      "titulo": "Ministro de Vivienda, Ciudad y Territorio, Jaime Andrés Beltrán"
+    },
+    {
+      "id": "qS21fGJeWmg",
+      "titulo": "Nos dejaron la olla pelada: ministro de Vivienda, Jaime Andrés Beltrán"
+    },
+    {
+      "id": "SGZrvrR-GhY",
+      "titulo": "Intervención del ministro Jaime Andrés Beltrán ante la Comisión Séptima del Senado"
+    },
+    {
+      "id": "kNONB--9vHA",
+      "titulo": "DATOS CURIOSOS DE JAIME ANDRES BELTRAN"
+    },
+    {
+      "id": "qA1YWp6oTTQ",
+      "titulo": "Ningún programa del Ministerio de Vivienda, Ciudad y Territorio necesita tramitadores"
+    },
+    {
+      "id": "CrFP6rRiOoU",
+      "titulo": "Conoce los 8 programas del Minvivienda anunciados por el ministro"
+    },
+    {
+      "id": "X6F5vJDpqDI",
+      "titulo": "En Cali se construirán 40 mil casas: Ministerio de Vivienda"
+    },
+    {
+      "id": "Ls8-2jz1UPs",
+      "titulo": "Ministerio de Vivienda entregó 12 viviendas adecuadas a familias de Nahuizalco, Sonsonate"
+    },
+    {
+      "id": "k1mKd2jd06U",
+      "titulo": "Ministerio de Vivienda al Borde del Colapso"
+    },
+    {
+      "id": "ZXwRASQbZCg",
+      "titulo": "Ministerio de Vivienda entregó viviendas a 36 familias"
+    },
+    {
+      "id": "SoMnW1k_kRI",
+      "titulo": "Demolidas Cuatro Casas al Servicio del Microtráfico en Florencia Caquetá"
+    },
+    {
+      "id": "RpMjPHoo4mY",
+      "titulo": "Ministro Jaime Andrés Beltrán plantea fortalecer los subsidios para vivienda en Villavicencio"
     }
   ]
 }
